@@ -1,0 +1,15 @@
+{
+  "name": "uswds-tutorial",
+  "private": true,
+  "author": "USWDS",
+  "license": "CC0-1.0",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "serve": "npx @11ty/eleventy --serve",
+    "test": "snyk test"
+  },
+  "devDependencies": {
+    "snyk": "^1.1069.0",
+    "@11ty/eleventy": "^2.0.0-canary.23"
+  }
+}
